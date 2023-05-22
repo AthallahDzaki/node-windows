@@ -1,6 +1,6 @@
-ARG core=mcr.microsoft.com/windows/servercore:ltsc2019
+ARG core=mcr.microsoft.com/windows/servercore:l
 
-ARG target=mcr.microsoft.com/windows/servercore:ltsc2019
+ARG target=mcr.microsoft.com/windows/nanoserver:2022
 
 FROM $core as download
 
