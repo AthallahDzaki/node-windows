@@ -1,6 +1,6 @@
-ARG core=mcr.microsoft.com/windows/nanoserver:2022
+ARG core=mcr.microsoft.com/windows/nanoserver
 
-ARG target=mcr.microsoft.com/windows/nanoserver:2022
+ARG target=mcr.microsoft.com/windows/nanoserver
 
 FROM $core as download
 
