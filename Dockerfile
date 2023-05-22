@@ -1,4 +1,4 @@
-ARG core=mcr.microsoft.com/windows/servercore:l
+ARG core=mcr.microsoft.com/windows/nanoserver:2022
 
 ARG target=mcr.microsoft.com/windows/nanoserver:2022
 
