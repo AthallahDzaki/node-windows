@@ -13,7 +13,7 @@ env:
 jobs:
   build_ghcr:
     name: runner / Build Docker Image actions
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
